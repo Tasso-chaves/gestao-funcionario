@@ -23,7 +23,7 @@ public class PopularBanco implements CommandLineRunner{
 
 		Funcionario f1 = new Funcionario("Tasso Chaves");
 		f1.setDataNascimento(LocalDate.now());
-		f1.setTelefone("98991415719");
+		f1.setTelefone("98991111111");
 		f1.setEmail("tchaves@gmail.com");
 		
 		Funcionario f2 = new Funcionario("Davi");

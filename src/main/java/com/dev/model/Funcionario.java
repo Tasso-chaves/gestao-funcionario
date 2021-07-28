@@ -17,7 +17,7 @@ public class Funcionario {
 	private Long id;
 	private String nome;
 	
-	@DateTimeFormat(style = "yyyy-MM-dd")
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private LocalDate dataNascimento;
 	
 	private String cpf;
